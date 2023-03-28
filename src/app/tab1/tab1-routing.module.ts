@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Tab1Page } from './tab1.page';
+import { Component, OnInit } from '@angular/core';
 
 const routes: Routes = [
   {
     path: '',
     component: Tab1Page,
-  }
+  },
+  // {
+  //   path: 'login',
+  //   loadChildren: () => import('../login/login.module').then( m => m.LoginPageModule)
+  // },
+
 ];
 
 @NgModule({

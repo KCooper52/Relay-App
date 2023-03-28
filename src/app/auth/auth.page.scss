@@ -1,0 +1,74 @@
+ion-content::part(background) {
+  --background: url('../../assets/images/RELAY\ Background.svg') no-repeat center fixed;
+  background-size: cover;
+}
+  
+    ion-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      text-align: center;
+
+    background-color: #232898;
+    border: solid 1px #fff;
+    color: #fff;
+    font-size: x-large;
+    font-weight: 600;
+
+    }
+
+    .relay-column{
+      background-color: #fff;
+    }
+
+    
+    ion-card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #232898;
+      border: solid 1px #fff;
+      font-size: large;
+      font-weight: 500;
+    }
+    
+    ion-card-subtitle {
+      color:#12D76E;
+      font-size: medium;
+    }
+    ion-card-title {
+      color: #fff;
+    }
+    
+    
+    ion-img {
+      height: 390px; 
+      width: 277.06px;
+    }
+
+    ion-button[slot="fixed"] {
+      color: #232898;
+      --padding-top: 10px;
+      --padding-bottom: 20px;
+      --border-radius: 0;
+      --border-color: #000;
+      --border-style: solid;
+      --border-width: 1px;
+    }
+
+  //   .auth-face-container {
+  //     margin-top: 1rem;
+      
+  // }
+  
+  // .auth-face-container img {
+  //     height: 400px;
+  //     width:auto;
+  // }
+    // ion-card-header {
+    //   display: flex;
+    //   flex-flow: column-reverse;
+    // }
+
+ 

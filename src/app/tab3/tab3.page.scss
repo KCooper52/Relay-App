@@ -1,0 +1,48 @@
+ion-content::part(background) {
+    --background: url('../../assets/images/RELAY\ Background.svg') no-repeat center fixed;
+    background-size: cover;
+        }
+
+
+ion-title {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+     font-size: large;
+      font-weight: 500;
+        }
+
+    
+      ion-col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        text-align: center;
+  
+      background-color: #232898;
+      border: solid 1px #fff;
+      color: #fff;
+      font-size: x-large;
+      font-weight: 600;
+  
+      }
+  
+      .relay-column{
+        background-color: #fff;
+      }
+  
+      
+      ion-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        background-color: #fff;
+        border: solid 1px #232898;
+    
+        font-size: large;
+        font-weight: 500;
+      }
